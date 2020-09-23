@@ -1,12 +1,12 @@
 body {
   margin: 6em;
-  width: 690px;
   cursor: text;
 }
 
 p {
   font-size: 1.5em;
   line-height: 1.75em;
+  width: 690px;
 }
 
 sup {
@@ -20,6 +20,12 @@ p.indent {
 
 div.copy {
   margin-top: 900px;
+}
+
+div.online {
+  text-align: right;
+  margin-top: -3em;
+  margin-bottom: 3em;
 }
 
 a {

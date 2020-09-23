@@ -1,0 +1,59 @@
+body {
+  margin: 6em;
+  width: 690px;
+  cursor: text;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+sup {
+  font-size: 0.65em;
+}
+
+p.indent {
+  text-indent: 3.5em;
+  margin-top: 3.5em;
+}
+
+div.copy {
+  margin-top: 900px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: text;
+}
+
+video.background {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+details {
+  width: 690px;
+}
+
+summary {
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+details[open] {
+  margin-bottom: 40px;
+  width: 450px;
+}
+
+p.image_caption {
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 1.25em;
+}
